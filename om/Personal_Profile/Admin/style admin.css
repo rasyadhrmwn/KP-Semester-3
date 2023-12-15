@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body{
+    background-color: #092131;
+    color: white;
+}
+
+
+
+.side {
+   
+    width: 20%; 
+    height: 100%;
+    background-color: #000; 
+    padding: 20px;
+    position: fixed;
+}
+
+.side h1{
+    color: #fff;
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none; 
+    display: flex;  
+    align-items: center; 
+    color: #fff;
+    font-size: 18px;
+}
+
+li a:hover{
+    color: lightblue;
+    border-bottom: 1px solid lightblue; 
+    padding-bottom: 4px; 
+}
+
+.disabled {
+    pointer-events: none;
+    color: lightblue; 
+}
+
+.disabled a {
+    color: lightblue;
+    border-bottom: 1px solid lightblue; 
+    padding-bottom: 4px; 
+}
+
+.fa-solid{
+    margin-right: 10px;
+}
+
+.isi {
+    flex-grow: 1;
+    padding: 20px;
+    padding-left: 250px;
+}
+
+.login{
+    margin: auto;
+    align-items: center;
+    padding: 20%  25%;
+    display: flex;
+}
+
+.login b{
+    margin-right: 15px;
+}
+.login-box h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 15px ;
+}
+
+.login-box input{
+    width: 700px;
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid purple;
+}
+
+.login-box input:focus{
+    border: 2px solid purple;
+    outline: 0;
+}
+
+.login-box button{
+    border: 0;
+    padding: 10px 30px;
+    background-color: purple;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #092131;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 10-x rgba(0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.login-box button:hover {
+box-shadow: 0 0 20px purple;
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.h3{
+    text-align: center;
+}
+
+
